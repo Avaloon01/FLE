@@ -1,0 +1,1022 @@
+{
+  "École": [
+    {
+      "fr": "crayon",
+      "pt": "lápis",
+      "image": "assets/images/ecole/crayon.png"
+    },
+    {
+      "fr": "cahier",
+      "pt": "caderno",
+      "image": "assets/images/ecole/cahier.png"
+    },
+    {
+      "fr": "table",
+      "pt": "mesa",
+      "image": "assets/images/ecole/table.png"
+    },
+    {
+      "fr": "chaise",
+      "pt": "cadeira",
+      "image": "assets/images/ecole/chaise.png"
+    },
+    {
+      "fr": "professeur",
+      "pt": "professor",
+      "image": "assets/images/ecole/professeur.png"
+    },
+    {
+      "fr": "élève",
+      "pt": "aluno",
+      "image": "assets/images/ecole/eleve.png"
+    },
+    {
+      "fr": "livre",
+      "pt": "livro",
+      "image": "assets/images/ecole/livre.png"
+    },
+    {
+      "fr": "gomme",
+      "pt": "borracha",
+      "image": "assets/images/ecole/gomme.png"
+    },
+    {
+      "fr": "règle",
+      "pt": "régua",
+      "image": "assets/images/ecole/regle.png"
+    },
+    {
+      "fr": "cartable",
+      "pt": "mochila",
+      "image": "assets/images/ecole/cartable.png"
+    },
+    {
+      "fr": "stylo",
+      "pt": "caneta",
+      "image": "assets/images/ecole/stylo.png"
+    },
+    {
+      "fr": "tableau",
+      "pt": "quadro",
+      "image": "assets/images/ecole/tableau.png"
+    },
+    {
+      "fr": "feuille",
+      "pt": "folha",
+      "image": "assets/images/ecole/feuille.png"
+    },
+    {
+      "fr": "sac",
+      "pt": "saco",
+      "image": "assets/images/ecole/sac.png"
+    },
+    {
+      "fr": "classe",
+      "pt": "classe",
+      "image": "assets/images/ecole/classe.png"
+    },
+    {
+      "fr": "bureau",
+      "pt": "escritório",
+      "image": "assets/images/ecole/bureau.png"
+    },
+    {
+      "fr": "pupitre",
+      "pt": "secretária",
+      "image": "assets/images/ecole/pupitre.png"
+    },
+    {
+      "fr": "horloge",
+      "pt": "relógio",
+      "image": "assets/images/ecole/horloge.png"
+    },
+    {
+      "fr": "porte",
+      "pt": "porta",
+      "image": "assets/images/ecole/porte.png"
+    },
+    {
+      "fr": "fenêtre",
+      "pt": "janela",
+      "image": "assets/images/ecole/fenetre.png"
+    }
+  ],
+  "Corps": [
+    {
+      "fr": "tête",
+      "pt": "cabeça",
+      "image": "assets/images/corps/tete.png"
+    },
+    {
+      "fr": "main",
+      "pt": "mão",
+      "image": "assets/images/corps/main.png"
+    },
+    {
+      "fr": "pied",
+      "pt": "pé",
+      "image": "assets/images/corps/pied.png"
+    },
+    {
+      "fr": "jambe",
+      "pt": "perna",
+      "image": "assets/images/corps/jambe.png"
+    },
+    {
+      "fr": "bras",
+      "pt": "braço",
+      "image": "assets/images/corps/bras.png"
+    },
+    {
+      "fr": "œil",
+      "pt": "olho",
+      "image": "assets/images/corps/il.png"
+    },
+    {
+      "fr": "nez",
+      "pt": "nariz",
+      "image": "assets/images/corps/nez.png"
+    },
+    {
+      "fr": "bouche",
+      "pt": "boca",
+      "image": "assets/images/corps/bouche.png"
+    },
+    {
+      "fr": "oreille",
+      "pt": "orelha",
+      "image": "assets/images/corps/oreille.png"
+    },
+    {
+      "fr": "cheveux",
+      "pt": "cabelo",
+      "image": "assets/images/corps/cheveux.png"
+    },
+    {
+      "fr": "doigt",
+      "pt": "dedo",
+      "image": "assets/images/corps/doigt.png"
+    },
+    {
+      "fr": "genou",
+      "pt": "joelho",
+      "image": "assets/images/corps/genou.png"
+    },
+    {
+      "fr": "ventre",
+      "pt": "barriga",
+      "image": "assets/images/corps/ventre.png"
+    },
+    {
+      "fr": "dos",
+      "pt": "costas",
+      "image": "assets/images/corps/dos.png"
+    },
+    {
+      "fr": "cou",
+      "pt": "pescoço",
+      "image": "assets/images/corps/cou.png"
+    },
+    {
+      "fr": "épaule",
+      "pt": "ombro",
+      "image": "assets/images/corps/epaule.png"
+    },
+    {
+      "fr": "cœur",
+      "pt": "coração",
+      "image": "assets/images/corps/cur.png"
+    },
+    {
+      "fr": "peau",
+      "pt": "pele",
+      "image": "assets/images/corps/peau.png"
+    },
+    {
+      "fr": "dent",
+      "pt": "dente",
+      "image": "assets/images/corps/dent.png"
+    },
+    {
+      "fr": "langue",
+      "pt": "língua",
+      "image": "assets/images/corps/langue.png"
+    }
+  ],
+  "Météo": [
+    {
+      "fr": "soleil",
+      "pt": "sol",
+      "image": "assets/images/meteo/soleil.png"
+    },
+    {
+      "fr": "pluie",
+      "pt": "chuva",
+      "image": "assets/images/meteo/pluie.png"
+    },
+    {
+      "fr": "nuage",
+      "pt": "nuvem",
+      "image": "assets/images/meteo/nuage.png"
+    },
+    {
+      "fr": "neige",
+      "pt": "neve",
+      "image": "assets/images/meteo/neige.png"
+    },
+    {
+      "fr": "vent",
+      "pt": "vento",
+      "image": "assets/images/meteo/vent.png"
+    },
+    {
+      "fr": "orage",
+      "pt": "tempête",
+      "image": "assets/images/meteo/orage.png"
+    },
+    {
+      "fr": "froid",
+      "pt": "frio",
+      "image": "assets/images/meteo/froid.png"
+    },
+    {
+      "fr": "chaud",
+      "pt": "quente",
+      "image": "assets/images/meteo/chaud.png"
+    },
+    {
+      "fr": "tempête",
+      "pt": "tempestade",
+      "image": "assets/images/meteo/tempete.png"
+    },
+    {
+      "fr": "ciel",
+      "pt": "céu",
+      "image": "assets/images/meteo/ciel.png"
+    },
+    {
+      "fr": "gel",
+      "pt": "geada",
+      "image": "assets/images/meteo/gel.png"
+    },
+    {
+      "fr": "brouillard",
+      "pt": "nevoeiro",
+      "image": "assets/images/meteo/brouillard.png"
+    },
+    {
+      "fr": "éclair",
+      "pt": "relâmpago",
+      "image": "assets/images/meteo/eclair.png"
+    },
+    {
+      "fr": "grêle",
+      "pt": "granizo",
+      "image": "assets/images/meteo/grele.png"
+    },
+    {
+      "fr": "arc-en-ciel",
+      "pt": "arco-íris",
+      "image": "assets/images/meteo/arc-en-ciel.png"
+    },
+    {
+      "fr": "humide",
+      "pt": "úmido",
+      "image": "assets/images/meteo/humide.png"
+    },
+    {
+      "fr": "sec",
+      "pt": "seco",
+      "image": "assets/images/meteo/sec.png"
+    },
+    {
+      "fr": "saison",
+      "pt": "estação",
+      "image": "assets/images/meteo/saison.png"
+    },
+    {
+      "fr": "température",
+      "pt": "temperatura",
+      "image": "assets/images/meteo/temperature.png"
+    },
+    {
+      "fr": "tornade",
+      "pt": "tornado",
+      "image": "assets/images/meteo/tornade.png"
+    }
+  ],
+  "Vêtements": [
+    {
+      "fr": "veste",
+      "pt": "casaco",
+      "image": "assets/images/vetements/veste.png"
+    },
+    {
+      "fr": "pantalon",
+      "pt": "calça",
+      "image": "assets/images/vetements/pantalon.png"
+    },
+    {
+      "fr": "chemise",
+      "pt": "camisa",
+      "image": "assets/images/vetements/chemise.png"
+    },
+    {
+      "fr": "robe",
+      "pt": "vestido",
+      "image": "assets/images/vetements/robe.png"
+    },
+    {
+      "fr": "jupe",
+      "pt": "saia",
+      "image": "assets/images/vetements/jupe.png"
+    },
+    {
+      "fr": "chaussure",
+      "pt": "sapato",
+      "image": "assets/images/vetements/chaussure.png"
+    },
+    {
+      "fr": "chapeau",
+      "pt": "chapéu",
+      "image": "assets/images/vetements/chapeau.png"
+    },
+    {
+      "fr": "gant",
+      "pt": "luva",
+      "image": "assets/images/vetements/gant.png"
+    },
+    {
+      "fr": "écharpe",
+      "pt": "cachecol",
+      "image": "assets/images/vetements/echarpe.png"
+    },
+    {
+      "fr": "short",
+      "pt": "shorts",
+      "image": "assets/images/vetements/short.png"
+    },
+    {
+      "fr": "chaussette",
+      "pt": "meia",
+      "image": "assets/images/vetements/chaussette.png"
+    },
+    {
+      "fr": "cravate",
+      "pt": "gravata",
+      "image": "assets/images/vetements/cravate.png"
+    },
+    {
+      "fr": "manteau",
+      "pt": "sobretudo",
+      "image": "assets/images/vetements/manteau.png"
+    },
+    {
+      "fr": "pyjama",
+      "pt": "pijama",
+      "image": "assets/images/vetements/pyjama.png"
+    },
+    {
+      "fr": "ceinture",
+      "pt": "cinto",
+      "image": "assets/images/vetements/ceinture.png"
+    },
+    {
+      "fr": "maillot",
+      "pt": "maiô",
+      "image": "assets/images/vetements/maillot.png"
+    },
+    {
+      "fr": "pull",
+      "pt": "suéter",
+      "image": "assets/images/vetements/pull.png"
+    },
+    {
+      "fr": "casquette",
+      "pt": "boné",
+      "image": "assets/images/vetements/casquette.png"
+    },
+    {
+      "fr": "collant",
+      "pt": "meia-calça",
+      "image": "assets/images/vetements/collant.png"
+    },
+    {
+      "fr": "sandale",
+      "pt": "sandália",
+      "image": "assets/images/vetements/sandale.png"
+    }
+  ],
+  "Verbes d’action": [
+    {
+      "fr": "marcher",
+      "pt": "andar",
+      "image": "assets/images/verbes-daction/marcher.png"
+    },
+    {
+      "fr": "courir",
+      "pt": "correr",
+      "image": "assets/images/verbes-daction/courir.png"
+    },
+    {
+      "fr": "manger",
+      "pt": "comer",
+      "image": "assets/images/verbes-daction/manger.png"
+    },
+    {
+      "fr": "boire",
+      "pt": "beber",
+      "image": "assets/images/verbes-daction/boire.png"
+    },
+    {
+      "fr": "parler",
+      "pt": "falar",
+      "image": "assets/images/verbes-daction/parler.png"
+    },
+    {
+      "fr": "écouter",
+      "pt": "ouvir",
+      "image": "assets/images/verbes-daction/ecouter.png"
+    },
+    {
+      "fr": "lire",
+      "pt": "ler",
+      "image": "assets/images/verbes-daction/lire.png"
+    },
+    {
+      "fr": "écrire",
+      "pt": "escrever",
+      "image": "assets/images/verbes-daction/ecrire.png"
+    },
+    {
+      "fr": "dormir",
+      "pt": "dormir",
+      "image": "assets/images/verbes-daction/dormir.png"
+    },
+    {
+      "fr": "jouer",
+      "pt": "jogar",
+      "image": "assets/images/verbes-daction/jouer.png"
+    },
+    {
+      "fr": "sauter",
+      "pt": "pular",
+      "image": "assets/images/verbes-daction/sauter.png"
+    },
+    {
+      "fr": "regarder",
+      "pt": "olhar",
+      "image": "assets/images/verbes-daction/regarder.png"
+    },
+    {
+      "fr": "prendre",
+      "pt": "pegar",
+      "image": "assets/images/verbes-daction/prendre.png"
+    },
+    {
+      "fr": "aimer",
+      "pt": "gostar",
+      "image": "assets/images/verbes-daction/aimer.png"
+    },
+    {
+      "fr": "sentir",
+      "pt": "sentir",
+      "image": "assets/images/verbes-daction/sentir.png"
+    },
+    {
+      "fr": "rire",
+      "pt": "rir",
+      "image": "assets/images/verbes-daction/rire.png"
+    },
+    {
+      "fr": "pleurer",
+      "pt": "chorar",
+      "image": "assets/images/verbes-daction/pleurer.png"
+    },
+    {
+      "fr": "ouvrir",
+      "pt": "abrir",
+      "image": "assets/images/verbes-daction/ouvrir.png"
+    },
+    {
+      "fr": "fermer",
+      "pt": "fechar",
+      "image": "assets/images/verbes-daction/fermer.png"
+    },
+    {
+      "fr": "nager",
+      "pt": "nadar",
+      "image": "assets/images/verbes-daction/nager.png"
+    }
+  ],
+  "Nourriture": [
+    {
+      "fr": "pomme",
+      "pt": "maçã",
+      "image": "assets/images/nourriture/pomme.png"
+    },
+    {
+      "fr": "banane",
+      "pt": "banana",
+      "image": "assets/images/nourriture/banane.png"
+    },
+    {
+      "fr": "pain",
+      "pt": "pão",
+      "image": "assets/images/nourriture/pain.png"
+    },
+    {
+      "fr": "fromage",
+      "pt": "queijo",
+      "image": "assets/images/nourriture/fromage.png"
+    },
+    {
+      "fr": "eau",
+      "pt": "água",
+      "image": "assets/images/nourriture/eau.png"
+    },
+    {
+      "fr": "lait",
+      "pt": "leite",
+      "image": "assets/images/nourriture/lait.png"
+    },
+    {
+      "fr": "poulet",
+      "pt": "frango",
+      "image": "assets/images/nourriture/poulet.png"
+    },
+    {
+      "fr": "poisson",
+      "pt": "peixe",
+      "image": "assets/images/nourriture/poisson.png"
+    },
+    {
+      "fr": "carotte",
+      "pt": "cenoura",
+      "image": "assets/images/nourriture/carotte.png"
+    },
+    {
+      "fr": "tomate",
+      "pt": "tomate",
+      "image": "assets/images/nourriture/tomate.png"
+    },
+    {
+      "fr": "riz",
+      "pt": "arroz",
+      "image": "assets/images/nourriture/riz.png"
+    },
+    {
+      "fr": "pâtes",
+      "pt": "massa",
+      "image": "assets/images/nourriture/pates.png"
+    },
+    {
+      "fr": "gâteau",
+      "pt": "bolo",
+      "image": "assets/images/nourriture/gateau.png"
+    },
+    {
+      "fr": "sucre",
+      "pt": "açúcar",
+      "image": "assets/images/nourriture/sucre.png"
+    },
+    {
+      "fr": "sel",
+      "pt": "sal",
+      "image": "assets/images/nourriture/sel.png"
+    },
+    {
+      "fr": "beurre",
+      "pt": "manteiga",
+      "image": "assets/images/nourriture/beurre.png"
+    },
+    {
+      "fr": "œuf",
+      "pt": "ovo",
+      "image": "assets/images/nourriture/uf.png"
+    },
+    {
+      "fr": "orange",
+      "pt": "laranja",
+      "image": "assets/images/nourriture/orange.png"
+    },
+    {
+      "fr": "fraise",
+      "pt": "morango",
+      "image": "assets/images/nourriture/fraise.png"
+    },
+    {
+      "fr": "yaourt",
+      "pt": "iogurte",
+      "image": "assets/images/nourriture/yaourt.png"
+    }
+  ],
+  "Famille": [
+    {
+      "fr": "mère",
+      "pt": "mãe",
+      "image": "assets/images/famille/mere.png"
+    },
+    {
+      "fr": "père",
+      "pt": "pai",
+      "image": "assets/images/famille/pere.png"
+    },
+    {
+      "fr": "frère",
+      "pt": "irmão",
+      "image": "assets/images/famille/frere.png"
+    },
+    {
+      "fr": "sœur",
+      "pt": "irmã",
+      "image": "assets/images/famille/sur.png"
+    },
+    {
+      "fr": "grand-mère",
+      "pt": "avó",
+      "image": "assets/images/famille/grand-mere.png"
+    },
+    {
+      "fr": "grand-père",
+      "pt": "avô",
+      "image": "assets/images/famille/grand-pere.png"
+    },
+    {
+      "fr": "oncle",
+      "pt": "tio",
+      "image": "assets/images/famille/oncle.png"
+    },
+    {
+      "fr": "tante",
+      "pt": "tia",
+      "image": "assets/images/famille/tante.png"
+    },
+    {
+      "fr": "cousin",
+      "pt": "primo",
+      "image": "assets/images/famille/cousin.png"
+    },
+    {
+      "fr": "cousine",
+      "pt": "prima",
+      "image": "assets/images/famille/cousine.png"
+    },
+    {
+      "fr": "fils",
+      "pt": "filho",
+      "image": "assets/images/famille/fils.png"
+    },
+    {
+      "fr": "fille",
+      "pt": "filha",
+      "image": "assets/images/famille/fille.png"
+    },
+    {
+      "fr": "parents",
+      "pt": "pais",
+      "image": "assets/images/famille/parents.png"
+    },
+    {
+      "fr": "bébé",
+      "pt": "bebê",
+      "image": "assets/images/famille/bebe.png"
+    },
+    {
+      "fr": "enfant",
+      "pt": "criança",
+      "image": "assets/images/famille/enfant.png"
+    },
+    {
+      "fr": "famille",
+      "pt": "família",
+      "image": "assets/images/famille/famille.png"
+    },
+    {
+      "fr": "époux",
+      "pt": "marido",
+      "image": "assets/images/famille/epoux.png"
+    },
+    {
+      "fr": "épouse",
+      "pt": "esposa",
+      "image": "assets/images/famille/epouse.png"
+    },
+    {
+      "fr": "ami",
+      "pt": "amigo",
+      "image": "assets/images/famille/ami.png"
+    },
+    {
+      "fr": "amie",
+      "pt": "amiga",
+      "image": "assets/images/famille/amie.png"
+    }
+  ],
+  "Lieux": [
+    {
+      "fr": "maison",
+      "pt": "casa",
+      "image": "assets/images/lieux/maison.png"
+    },
+    {
+      "fr": "école",
+      "pt": "escola",
+      "image": "assets/images/lieux/ecole.png"
+    },
+    {
+      "fr": "parc",
+      "pt": "parque",
+      "image": "assets/images/lieux/parc.png"
+    },
+    {
+      "fr": "magasin",
+      "pt": "loja",
+      "image": "assets/images/lieux/magasin.png"
+    },
+    {
+      "fr": "hôpital",
+      "pt": "hospital",
+      "image": "assets/images/lieux/hopital.png"
+    },
+    {
+      "fr": "bibliothèque",
+      "pt": "biblioteca",
+      "image": "assets/images/lieux/bibliotheque.png"
+    },
+    {
+      "fr": "piscine",
+      "pt": "piscina",
+      "image": "assets/images/lieux/piscine.png"
+    },
+    {
+      "fr": "restaurant",
+      "pt": "restaurante",
+      "image": "assets/images/lieux/restaurant.png"
+    },
+    {
+      "fr": "plage",
+      "pt": "praia",
+      "image": "assets/images/lieux/plage.png"
+    },
+    {
+      "fr": "montagne",
+      "pt": "montanha",
+      "image": "assets/images/lieux/montagne.png"
+    },
+    {
+      "fr": "forêt",
+      "pt": "floresta",
+      "image": "assets/images/lieux/foret.png"
+    },
+    {
+      "fr": "ville",
+      "pt": "cidade",
+      "image": "assets/images/lieux/ville.png"
+    },
+    {
+      "fr": "village",
+      "pt": "aldeia",
+      "image": "assets/images/lieux/village.png"
+    },
+    {
+      "fr": "rue",
+      "pt": "rua",
+      "image": "assets/images/lieux/rue.png"
+    },
+    {
+      "fr": "gare",
+      "pt": "estação",
+      "image": "assets/images/lieux/gare.png"
+    },
+    {
+      "fr": "aéroport",
+      "pt": "aeroporto",
+      "image": "assets/images/lieux/aeroport.png"
+    },
+    {
+      "fr": "zoo",
+      "pt": "zoológico",
+      "image": "assets/images/lieux/zoo.png"
+    },
+    {
+      "fr": "musée",
+      "pt": "museu",
+      "image": "assets/images/lieux/musee.png"
+    },
+    {
+      "fr": "cinéma",
+      "pt": "cinema",
+      "image": "assets/images/lieux/cinema.png"
+    },
+    {
+      "fr": "théâtre",
+      "pt": "teatro",
+      "image": "assets/images/lieux/theatre.png"
+    }
+  ],
+  "Objets de classe": [
+    {
+      "fr": "crayon",
+      "pt": "lápis",
+      "image": "assets/images/objets-de-classe/crayon.png"
+    },
+    {
+      "fr": "ciseaux",
+      "pt": "tesoura",
+      "image": "assets/images/objets-de-classe/ciseaux.png"
+    },
+    {
+      "fr": "colle",
+      "pt": "cola",
+      "image": "assets/images/objets-de-classe/colle.png"
+    },
+    {
+      "fr": "livre",
+      "pt": "livro",
+      "image": "assets/images/objets-de-classe/livre.png"
+    },
+    {
+      "fr": "règle",
+      "pt": "régua",
+      "image": "assets/images/objets-de-classe/regle.png"
+    },
+    {
+      "fr": "feutre",
+      "pt": "marcador",
+      "image": "assets/images/objets-de-classe/feutre.png"
+    },
+    {
+      "fr": "stylo",
+      "pt": "caneta",
+      "image": "assets/images/objets-de-classe/stylo.png"
+    },
+    {
+      "fr": "feuille",
+      "pt": "folha",
+      "image": "assets/images/objets-de-classe/feuille.png"
+    },
+    {
+      "fr": "dictionnaire",
+      "pt": "dicionário",
+      "image": "assets/images/objets-de-classe/dictionnaire.png"
+    },
+    {
+      "fr": "ordinateur",
+      "pt": "computador",
+      "image": "assets/images/objets-de-classe/ordinateur.png"
+    },
+    {
+      "fr": "tablette",
+      "pt": "tablet",
+      "image": "assets/images/objets-de-classe/tablette.png"
+    },
+    {
+      "fr": "armoire",
+      "pt": "armário",
+      "image": "assets/images/objets-de-classe/armoire.png"
+    },
+    {
+      "fr": "chaise",
+      "pt": "cadeira",
+      "image": "assets/images/objets-de-classe/chaise.png"
+    },
+    {
+      "fr": "table",
+      "pt": "mesa",
+      "image": "assets/images/objets-de-classe/table.png"
+    },
+    {
+      "fr": "sac à dos",
+      "pt": "mochila",
+      "image": "assets/images/objets-de-classe/sac-a-dos.png"
+    },
+    {
+      "fr": "agrafeuse",
+      "pt": "grampeador",
+      "image": "assets/images/objets-de-classe/agrafeuse.png"
+    },
+    {
+      "fr": "pochette",
+      "pt": "bolsa",
+      "image": "assets/images/objets-de-classe/pochette.png"
+    },
+    {
+      "fr": "papier",
+      "pt": "papel",
+      "image": "assets/images/objets-de-classe/papier.png"
+    },
+    {
+      "fr": "carte",
+      "pt": "cartão",
+      "image": "assets/images/objets-de-classe/carte.png"
+    },
+    {
+      "fr": "affiche",
+      "pt": "cartaz",
+      "image": "assets/images/objets-de-classe/affiche.png"
+    }
+  ],
+  "Émotions": [
+    {
+      "fr": "heureux",
+      "pt": "feliz",
+      "image": "assets/images/emotions/heureux.png"
+    },
+    {
+      "fr": "triste",
+      "pt": "triste",
+      "image": "assets/images/emotions/triste.png"
+    },
+    {
+      "fr": "fatigué",
+      "pt": "cansado",
+      "image": "assets/images/emotions/fatigue.png"
+    },
+    {
+      "fr": "énervé",
+      "pt": "irritado",
+      "image": "assets/images/emotions/enerve.png"
+    },
+    {
+      "fr": "surpris",
+      "pt": "surpreso",
+      "image": "assets/images/emotions/surpris.png"
+    },
+    {
+      "fr": "peur",
+      "pt": "medo",
+      "image": "assets/images/emotions/peur.png"
+    },
+    {
+      "fr": "calme",
+      "pt": "calmo",
+      "image": "assets/images/emotions/calme.png"
+    },
+    {
+      "fr": "fâché",
+      "pt": "zangado",
+      "image": "assets/images/emotions/fache.png"
+    },
+    {
+      "fr": "excité",
+      "pt": "animado",
+      "image": "assets/images/emotions/excite.png"
+    },
+    {
+      "fr": "jaloux",
+      "pt": "ciumento",
+      "image": "assets/images/emotions/jaloux.png"
+    },
+    {
+      "fr": "amoureux",
+      "pt": "apaixonado",
+      "image": "assets/images/emotions/amoureux.png"
+    },
+    {
+      "fr": "gêné",
+      "pt": "envergonhado",
+      "image": "assets/images/emotions/gene.png"
+    },
+    {
+      "fr": "satisfait",
+      "pt": "satisfeito",
+      "image": "assets/images/emotions/satisfait.png"
+    },
+    {
+      "fr": "inquiet",
+      "pt": "preocupado",
+      "image": "assets/images/emotions/inquiet.png"
+    },
+    {
+      "fr": "curieux",
+      "pt": "curioso",
+      "image": "assets/images/emotions/curieux.png"
+    },
+    {
+      "fr": "déçu",
+      "pt": "desapontado",
+      "image": "assets/images/emotions/decu.png"
+    },
+    {
+      "fr": "rassuré",
+      "pt": "tranquilo",
+      "image": "assets/images/emotions/rassure.png"
+    },
+    {
+      "fr": "stressé",
+      "pt": "estressado",
+      "image": "assets/images/emotions/stresse.png"
+    },
+    {
+      "fr": "timide",
+      "pt": "tímido",
+      "image": "assets/images/emotions/timide.png"
+    },
+    {
+      "fr": "content",
+      "pt": "contente",
+      "image": "assets/images/emotions/content.png"
+    }
+  ]
+}

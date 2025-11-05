@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>FLE — Thématiques</title>
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <script defer src="assets/js/app.js"></script>
+</head>
+<body>
+  <header>
+    <div class="nav">
+      <strong>FLE Vocabulaire</strong>
+      <a href="index.html">Thématiques</a>
+      <a href="vocab.html">Vocabulaire</a>
+      <a href="game.html">Jeu</a>
+      <a href="account.html">Mon compte</a>
+    </div>
+    <div>
+      <button class="btn" id="say-btn" title="Dire bonjour">🔊</button>
+    </div>
+  </header>
+  <main class="container">
+    <h1>Choisis une thématique</h1>
+    <p class="small">Clique sur <em>Vocabulaire</em> pour réviser, ou <em>Jouer</em> pour t'entraîner.</p>
+    <div id="themes" class="grid"></div>
+  </main>
+  <footer>FLE — Images factices générées (remplace-les par de vrais PNG dans <code>assets/images/&lt;theme&gt;/</code>).</footer>
+  <script>
+    const { say, loadVocab, themeCards } = FLEVocab;
+    document.getElementById('say-btn').addEventListener('click', () => say("Bienvenue, choisis une thématique !"));
+    loadVocab().then(vocab => {
+      document.getElementById('themes').innerHTML = themeCards(vocab);
+    });
+  </script>
+</body>
+</html>

@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Vocabulaire — FLE</title>
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <script defer src="assets/js/app.js"></script>
+</head>
+<body>
+  <header>
+    <div class="nav">
+      <strong>FLE Vocabulaire</strong>
+      <a href="index.html">Thématiques</a>
+      <a href="vocab.html">Vocabulaire</a>
+      <a href="game.html">Jeu</a>
+      <a href="account.html">Mon compte</a>
+    </div>
+  </header>
+  <main class="container">
+    <h1 id="title">Vocabulaire</h1>
+    <p class="small">Clique sur 🔊 pour écouter. (Synthèse vocale)</p>
+    <div id="gallery" class="grid"></div>
+  </main>
+  <footer>FLE — Galerie vocabulaire</footer>
+  <script>
+    const { loadVocab, getParam, say } = FLEVocab;
+    const theme = getParam('theme');
+    async function init(){
+      const vocab = await loadVocab();
+      const themes = Object.keys(vocab);
+      const th = theme && vocab[theme] ? theme : themes[0];
+      document.getElementById('title').innerText = 'Vocabulaire — ' + th;
+      const list = vocab[th];
+      const html = list.map(item => `
+        <div class="card">
+          <figure><img src="${item.image}" alt="${item.fr}"></figure>
+          <h3>${item.fr}</h3>
+          <div class="options">
+            <button class="btn" onclick="FLEVocab.say('${item.fr}')">🔊 Écouter</button>
+            <span class="badge">PT: ${item.pt}</span>
+          </div>
+        </div>`).join('');
+      document.getElementById('gallery').innerHTML = html;
+    }
+    init();
+  </script>
+</body>
+</html>

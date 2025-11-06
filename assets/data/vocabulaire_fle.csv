@@ -1,0 +1,168 @@
+theme_id;theme_label_fr;fr;pt;ar;image
+salutations;Salutations;bonjour;olá;مرحبا;bonjour.jpg
+salutations;Salutations;au revoir;adeus;مع السلامة;au_revoir.jpg
+salutations;Salutations;s'il te plaît;por favor;من فضلك;sil_te_plait.jpg
+salutations;Salutations;merci;obrigado;شكرا;merci.jpg
+salutations;Salutations;excuse-moi;desculpa;عذرا;excuse-moi.jpg
+salutations;Salutations;oui;sim;نعم;oui.jpg
+salutations;Salutations;non;não;لا;non.jpg
+salutations;Salutations;comment ça va ?;tudo bem?;كيف حالك؟;comment_ca_va_?.jpg
+salutations;Salutations;je m'appelle ...;chamo-me ...;اسمي ...;je_mappelle_....jpg
+salutations;Salutations;j'ai ... ans;tenho ... anos;عمري ... سنوات;jai_..._ans.jpg
+salutations;Salutations;bienvenue;bem-vindo;أهلا وسهلا;bienvenue.jpg
+salutations;Salutations;à demain;até amanhã;إلى الغد;a_demain.jpg
+classe;Dans la classe;le crayon;lápis;قلم رصاص;le_crayon.jpg
+classe;Dans la classe;le stylo;caneta;قلم;le_stylo.jpg
+classe;Dans la classe;la gomme;borracha;ممحاة;la_gomme.jpg
+classe;Dans la classe;le cahier;caderno;دفتر;le_cahier.jpg
+classe;Dans la classe;le livre;livro;كتاب;le_livre.jpg
+classe;Dans la classe;la règle;régua;مسطرة;la_regle.jpg
+classe;Dans la classe;la feuille;folha;ورقة;la_feuille.jpg
+classe;Dans la classe;le sac;mochila;حقيبة;le_sac.jpg
+classe;Dans la classe;la chaise;cadeira;كرسي;la_chaise.jpg
+classe;Dans la classe;la table;mesa;طاولة;la_table.jpg
+classe;Dans la classe;la maîtresse;professora;المعلمة;la_maitresse.jpg
+classe;Dans la classe;la carte;mapa;خريطة;la_carte.jpg
+couleurs;Couleurs;rouge;vermelho;أحمر;rouge.jpg
+couleurs;Couleurs;bleu;azul;أزرق;bleu.jpg
+couleurs;Couleurs;vert;verde;أخضر;vert.jpg
+couleurs;Couleurs;jaune;amarelo;أصفر;jaune.jpg
+couleurs;Couleurs;noir;preto;أسود;noir.jpg
+couleurs;Couleurs;blanc;branco;أبيض;blanc.jpg
+couleurs;Couleurs;orange;laranja;برتقالي;orange.jpg
+couleurs;Couleurs;rose;rosa;وردي;rose.jpg
+couleurs;Couleurs;violet;roxo;بنفسجي;violet.jpg
+couleurs;Couleurs;marron;castanho;بني;marron.jpg
+couleurs;Couleurs;gris;cinzento;رمادي;gris.jpg
+couleurs;Couleurs;multicolore;multicolorido;متعدد الألوان;multicolore.jpg
+nombres_0_10;Nombres 0–10;zéro;zero;صفر;zero.jpg
+nombres_0_10;Nombres 0–10;un;um;واحد;un.jpg
+nombres_0_10;Nombres 0–10;deux;dois;اثنان;deux.jpg
+nombres_0_10;Nombres 0–10;trois;três;ثلاثة;trois.jpg
+nombres_0_10;Nombres 0–10;quatre;quatro;أربعة;quatre.jpg
+nombres_0_10;Nombres 0–10;cinq;cinco;خمسة;cinq.jpg
+nombres_0_10;Nombres 0–10;six;seis;ستة;six.jpg
+nombres_0_10;Nombres 0–10;sept;sete;سبعة;sept.jpg
+nombres_0_10;Nombres 0–10;huit;oito;ثمانية;huit.jpg
+nombres_0_10;Nombres 0–10;neuf;nove;تسعة;neuf.jpg
+nombres_0_10;Nombres 0–10;dix;dez;عشرة;dix.jpg
+famille;La famille;maman;mãe;أم;maman.jpg
+famille;La famille;papa;pai;أب;papa.jpg
+famille;La famille;frère;irmão;أخ;frere.jpg
+famille;La famille;sœur;irmã;أخت;sœur.jpg
+famille;La famille;bébé;bebé;رضيع;bebe.jpg
+famille;La famille;grand-mère;avó;جدة;grand-mere.jpg
+famille;La famille;grand-père;avô;جد;grand-pere.jpg
+famille;La famille;oncle;tio;عم;oncle.jpg
+famille;La famille;tante;tia;عمة;tante.jpg
+famille;La famille;cousin;primo;ابن العم;cousin.jpg
+famille;La famille;la famille;família;عائلة;la_famille.jpg
+famille;La famille;un ami;amigo;صديق;un_ami.jpg
+vetements;Les vêtements;le pantalon;calças;سروال;le_pantalon.jpg
+vetements;Les vêtements;le t-shirt;t‑shirt;تيشيرت;le_t-shirt.jpg
+vetements;Les vêtements;la chemise;camisa;قميص;la_chemise.jpg
+vetements;Les vêtements;la robe;vestido;فستان;la_robe.jpg
+vetements;Les vêtements;la jupe;saia;تنورة;la_jupe.jpg
+vetements;Les vêtements;les chaussures;sapatos;أحذية;les_chaussures.jpg
+vetements;Les vêtements;les chaussettes;meias;جوارب;les_chaussettes.jpg
+vetements;Les vêtements;le manteau;casaco;معطف;le_manteau.jpg
+vetements;Les vêtements;le pull;camisola;كنزة;le_pull.jpg
+vetements;Les vêtements;le chapeau;chapéu;قبعة;le_chapeau.jpg
+vetements;Les vêtements;l'écharpe;cachecol;وشاح;lecharpe.jpg
+vetements;Les vêtements;les gants;luvas;قفازات;les_gants.jpg
+corps;Le corps;la tête;cabeça;رأس;la_tete.jpg
+corps;Le corps;les cheveux;cabelos;شعر;les_cheveux.jpg
+corps;Le corps;les yeux;olhos;عيون;les_yeux.jpg
+corps;Le corps;le nez;nariz;أنف;le_nez.jpg
+corps;Le corps;la bouche;boca;فم;la_bouche.jpg
+corps;Le corps;l'oreille;orelha;أذن;loreille.jpg
+corps;Le corps;la main;mão;يد;la_main.jpg
+corps;Le corps;le bras;braço;ذراع;le_bras.jpg
+corps;Le corps;la jambe;perna;ساق;la_jambe.jpg
+corps;Le corps;le pied;pé;قدم;le_pied.jpg
+corps;Le corps;le dos;costas;ظهر;le_dos.jpg
+corps;Le corps;le ventre;barriga;بطن;le_ventre.jpg
+maison;La maison et les pièces;la maison;casa;بيت;la_maison.jpg
+maison;La maison et les pièces;la cuisine;cozinha;مطبخ;la_cuisine.jpg
+maison;La maison et les pièces;le salon;sala de estar;غرفة الجلوس;le_salon.jpg
+maison;La maison et les pièces;la chambre;quarto;غرفة النوم;la_chambre.jpg
+maison;La maison et les pièces;la salle de bain;casa de banho;حمام;la_salle_de_bain.jpg
+maison;La maison et les pièces;le jardin;jardim;حديقة;le_jardin.jpg
+maison;La maison et les pièces;la porte;porta;باب;la_porte.jpg
+maison;La maison et les pièces;la fenêtre;janela;نافذة;la_fenetre.jpg
+maison;La maison et les pièces;le lit;cama;سرير;le_lit.jpg
+maison;La maison et les pièces;la table;mesa;طاولة;la_table.jpg
+maison;La maison et les pièces;la chaise;cadeira;كرسي;la_chaise.jpg
+maison;La maison et les pièces;l'escalier;escada;درج;lescalier.jpg
+nourriture;La nourriture;le pain;pão;خبز;le_pain.jpg
+nourriture;La nourriture;l'eau;água;ماء;leau.jpg
+nourriture;La nourriture;le lait;leite;حليب;le_lait.jpg
+nourriture;La nourriture;la pomme;maçã;تفاح;la_pomme.jpg
+nourriture;La nourriture;la banane;banana;موز;la_banane.jpg
+nourriture;La nourriture;l'orange;laranja;برتقال;lorange.jpg
+nourriture;La nourriture;le riz;arroz;أرز;le_riz.jpg
+nourriture;La nourriture;les pâtes;massas;معكرونة;les_pates.jpg
+nourriture;La nourriture;le poulet;frango;دجاج;le_poulet.jpg
+nourriture;La nourriture;le poisson;peixe;سمك;le_poisson.jpg
+nourriture;La nourriture;les légumes;legumes;خضار;les_legumes.jpg
+nourriture;La nourriture;le fromage;queijo;جبن;le_fromage.jpg
+animaux;Les animaux;le chien;cão;كلب;le_chien.jpg
+animaux;Les animaux;le chat;gato;قط;le_chat.jpg
+animaux;Les animaux;le poisson;peixe;سمكة;le_poisson.jpg
+animaux;Les animaux;l'oiseau;pássaro;طائر;loiseau.jpg
+animaux;Les animaux;la vache;vaca;بقرة;la_vache.jpg
+animaux;Les animaux;le cheval;cavalo;حصان;le_cheval.jpg
+animaux;Les animaux;le cochon;porco;خنزير;le_cochon.jpg
+animaux;Les animaux;le mouton;ovelha;خروف;le_mouton.jpg
+animaux;Les animaux;la chèvre;cabra;عنزة;la_chevre.jpg
+animaux;Les animaux;le lapin;coelho;أرنب;le_lapin.jpg
+animaux;Les animaux;le lion;leão;أسد;le_lion.jpg
+animaux;Les animaux;l'éléphant;elefante;فيل;lelephant.jpg
+verbes;Verbes du quotidien;manger;comer;يأكل;manger.jpg
+verbes;Verbes du quotidien;boire;beber;يشرب;boire.jpg
+verbes;Verbes du quotidien;aller;ir;يذهب;aller.jpg
+verbes;Verbes du quotidien;venir;vir;يأتي;venir.jpg
+verbes;Verbes du quotidien;parler;falar;يتكلم;parler.jpg
+verbes;Verbes du quotidien;écouter;ouvir;يستمع;ecouter.jpg
+verbes;Verbes du quotidien;lire;ler;يقرأ;lire.jpg
+verbes;Verbes du quotidien;écrire;escrever;يكتب;ecrire.jpg
+verbes;Verbes du quotidien;jouer;brincar;يلعب;jouer.jpg
+verbes;Verbes du quotidien;dormir;dormir;ينام;dormir.jpg
+verbes;Verbes du quotidien;courir;correr;يركض;courir.jpg
+verbes;Verbes du quotidien;sauter;saltar;يقفز;sauter.jpg
+lieux;Lieux de la ville;l'école;escola;مدرسة;lecole.jpg
+lieux;Lieux de la ville;le parc;parque;حديقة;le_parc.jpg
+lieux;Lieux de la ville;la rue;rua;شارع;la_rue.jpg
+lieux;Lieux de la ville;la boulangerie;padaria;مخبز;la_boulangerie.jpg
+lieux;Lieux de la ville;le magasin;loja;متجر;le_magasin.jpg
+lieux;Lieux de la ville;la piscine;piscina;مسبح;la_piscine.jpg
+lieux;Lieux de la ville;la poste;correios;بريد;la_poste.jpg
+lieux;Lieux de la ville;l'hôpital;hospital;مستشفى;lhopital.jpg
+lieux;Lieux de la ville;la gare;estação;محطة;la_gare.jpg
+lieux;Lieux de la ville;la maison;casa;بيت;la_maison.jpg
+lieux;Lieux de la ville;l'église;igreja;كنيسة;leglise.jpg
+lieux;Lieux de la ville;la bibliothèque;biblioteca;مكتبة;la_bibliotheque.jpg
+meteo;La météo;le soleil;sol;شمس;le_soleil.jpg
+meteo;La météo;la pluie;chuva;مطر;la_pluie.jpg
+meteo;La météo;le nuage;nuvem;سحابة;le_nuage.jpg
+meteo;La météo;le vent;vento;رياح;le_vent.jpg
+meteo;La météo;la neige;neve;ثلج;la_neige.jpg
+meteo;La météo;l'orage;trovoada;عاصفة رعدية;lorage.jpg
+meteo;La météo;il fait chaud;está calor;الطقس حار;il_fait_chaud.jpg
+meteo;La météo;il fait froid;está frio;الطقس بارد;il_fait_froid.jpg
+meteo;La météo;il fait beau;está bom tempo;الجو جميل;il_fait_beau.jpg
+meteo;La météo;il pleut;está a chover;إنه يمطر;il_pleut.jpg
+meteo;La météo;il neige;está a nevar;إنه يثلج;il_neige.jpg
+meteo;La météo;l'arc‑en‑ciel;arco‑íris;قوس قزح;larc‑en‑ciel.jpg
+transports;Les transports;la voiture;carro;سيارة;la_voiture.jpg
+transports;Les transports;le bus;autocarro;حافلة;le_bus.jpg
+transports;Les transports;le train;comboio;قطار;le_train.jpg
+transports;Les transports;le métro;metro;مترو;le_metro.jpg
+transports;Les transports;le vélo;bicicleta;دراجة;le_velo.jpg
+transports;Les transports;la trottinette;trotinete;سكوتر;la_trottinette.jpg
+transports;Les transports;l'avion;avião;طائرة;lavion.jpg
+transports;Les transports;le bateau;barco;قارب;le_bateau.jpg
+transports;Les transports;le taxi;táxi;تاكسي;le_taxi.jpg
+transports;Les transports;à pied;a pé;سيرا على الأقدام;a_pied.jpg
+transports;Les transports;le camion;camioneta;شاحنة;le_camion.jpg
+transports;Les transports;le tram;elétrico;ترام;le_tram.jpg

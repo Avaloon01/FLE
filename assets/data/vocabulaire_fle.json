@@ -1,0 +1,1095 @@
+{
+  "languages": [
+    "fr",
+    "pt",
+    "ar"
+  ],
+  "themes": [
+    {
+      "id": "salutations",
+      "label_fr": "Salutations",
+      "items": [
+        {
+          "fr": "bonjour",
+          "pt": "olá",
+          "ar": "مرحبا",
+          "image": "bonjour.jpg"
+        },
+        {
+          "fr": "au revoir",
+          "pt": "adeus",
+          "ar": "مع السلامة",
+          "image": "au_revoir.jpg"
+        },
+        {
+          "fr": "s'il te plaît",
+          "pt": "por favor",
+          "ar": "من فضلك",
+          "image": "sil_te_plait.jpg"
+        },
+        {
+          "fr": "merci",
+          "pt": "obrigado",
+          "ar": "شكرا",
+          "image": "merci.jpg"
+        },
+        {
+          "fr": "excuse-moi",
+          "pt": "desculpa",
+          "ar": "عذرا",
+          "image": "excuse-moi.jpg"
+        },
+        {
+          "fr": "oui",
+          "pt": "sim",
+          "ar": "نعم",
+          "image": "oui.jpg"
+        },
+        {
+          "fr": "non",
+          "pt": "não",
+          "ar": "لا",
+          "image": "non.jpg"
+        },
+        {
+          "fr": "comment ça va ?",
+          "pt": "tudo bem?",
+          "ar": "كيف حالك؟",
+          "image": "comment_ca_va_?.jpg"
+        },
+        {
+          "fr": "je m'appelle ...",
+          "pt": "chamo-me ...",
+          "ar": "اسمي ...",
+          "image": "je_mappelle_....jpg"
+        },
+        {
+          "fr": "j'ai ... ans",
+          "pt": "tenho ... anos",
+          "ar": "عمري ... سنوات",
+          "image": "jai_..._ans.jpg"
+        },
+        {
+          "fr": "bienvenue",
+          "pt": "bem-vindo",
+          "ar": "أهلا وسهلا",
+          "image": "bienvenue.jpg"
+        },
+        {
+          "fr": "à demain",
+          "pt": "até amanhã",
+          "ar": "إلى الغد",
+          "image": "a_demain.jpg"
+        }
+      ]
+    },
+    {
+      "id": "classe",
+      "label_fr": "Dans la classe",
+      "items": [
+        {
+          "fr": "le crayon",
+          "pt": "lápis",
+          "ar": "قلم رصاص",
+          "image": "le_crayon.jpg"
+        },
+        {
+          "fr": "le stylo",
+          "pt": "caneta",
+          "ar": "قلم",
+          "image": "le_stylo.jpg"
+        },
+        {
+          "fr": "la gomme",
+          "pt": "borracha",
+          "ar": "ممحاة",
+          "image": "la_gomme.jpg"
+        },
+        {
+          "fr": "le cahier",
+          "pt": "caderno",
+          "ar": "دفتر",
+          "image": "le_cahier.jpg"
+        },
+        {
+          "fr": "le livre",
+          "pt": "livro",
+          "ar": "كتاب",
+          "image": "le_livre.jpg"
+        },
+        {
+          "fr": "la règle",
+          "pt": "régua",
+          "ar": "مسطرة",
+          "image": "la_regle.jpg"
+        },
+        {
+          "fr": "la feuille",
+          "pt": "folha",
+          "ar": "ورقة",
+          "image": "la_feuille.jpg"
+        },
+        {
+          "fr": "le sac",
+          "pt": "mochila",
+          "ar": "حقيبة",
+          "image": "le_sac.jpg"
+        },
+        {
+          "fr": "la chaise",
+          "pt": "cadeira",
+          "ar": "كرسي",
+          "image": "la_chaise.jpg"
+        },
+        {
+          "fr": "la table",
+          "pt": "mesa",
+          "ar": "طاولة",
+          "image": "la_table.jpg"
+        },
+        {
+          "fr": "la maîtresse",
+          "pt": "professora",
+          "ar": "المعلمة",
+          "image": "la_maitresse.jpg"
+        },
+        {
+          "fr": "la carte",
+          "pt": "mapa",
+          "ar": "خريطة",
+          "image": "la_carte.jpg"
+        }
+      ]
+    },
+    {
+      "id": "couleurs",
+      "label_fr": "Couleurs",
+      "items": [
+        {
+          "fr": "rouge",
+          "pt": "vermelho",
+          "ar": "أحمر",
+          "image": "rouge.jpg"
+        },
+        {
+          "fr": "bleu",
+          "pt": "azul",
+          "ar": "أزرق",
+          "image": "bleu.jpg"
+        },
+        {
+          "fr": "vert",
+          "pt": "verde",
+          "ar": "أخضر",
+          "image": "vert.jpg"
+        },
+        {
+          "fr": "jaune",
+          "pt": "amarelo",
+          "ar": "أصفر",
+          "image": "jaune.jpg"
+        },
+        {
+          "fr": "noir",
+          "pt": "preto",
+          "ar": "أسود",
+          "image": "noir.jpg"
+        },
+        {
+          "fr": "blanc",
+          "pt": "branco",
+          "ar": "أبيض",
+          "image": "blanc.jpg"
+        },
+        {
+          "fr": "orange",
+          "pt": "laranja",
+          "ar": "برتقالي",
+          "image": "orange.jpg"
+        },
+        {
+          "fr": "rose",
+          "pt": "rosa",
+          "ar": "وردي",
+          "image": "rose.jpg"
+        },
+        {
+          "fr": "violet",
+          "pt": "roxo",
+          "ar": "بنفسجي",
+          "image": "violet.jpg"
+        },
+        {
+          "fr": "marron",
+          "pt": "castanho",
+          "ar": "بني",
+          "image": "marron.jpg"
+        },
+        {
+          "fr": "gris",
+          "pt": "cinzento",
+          "ar": "رمادي",
+          "image": "gris.jpg"
+        },
+        {
+          "fr": "multicolore",
+          "pt": "multicolorido",
+          "ar": "متعدد الألوان",
+          "image": "multicolore.jpg"
+        }
+      ]
+    },
+    {
+      "id": "nombres_0_10",
+      "label_fr": "Nombres 0–10",
+      "items": [
+        {
+          "fr": "zéro",
+          "pt": "zero",
+          "ar": "صفر",
+          "image": "zero.jpg"
+        },
+        {
+          "fr": "un",
+          "pt": "um",
+          "ar": "واحد",
+          "image": "un.jpg"
+        },
+        {
+          "fr": "deux",
+          "pt": "dois",
+          "ar": "اثنان",
+          "image": "deux.jpg"
+        },
+        {
+          "fr": "trois",
+          "pt": "três",
+          "ar": "ثلاثة",
+          "image": "trois.jpg"
+        },
+        {
+          "fr": "quatre",
+          "pt": "quatro",
+          "ar": "أربعة",
+          "image": "quatre.jpg"
+        },
+        {
+          "fr": "cinq",
+          "pt": "cinco",
+          "ar": "خمسة",
+          "image": "cinq.jpg"
+        },
+        {
+          "fr": "six",
+          "pt": "seis",
+          "ar": "ستة",
+          "image": "six.jpg"
+        },
+        {
+          "fr": "sept",
+          "pt": "sete",
+          "ar": "سبعة",
+          "image": "sept.jpg"
+        },
+        {
+          "fr": "huit",
+          "pt": "oito",
+          "ar": "ثمانية",
+          "image": "huit.jpg"
+        },
+        {
+          "fr": "neuf",
+          "pt": "nove",
+          "ar": "تسعة",
+          "image": "neuf.jpg"
+        },
+        {
+          "fr": "dix",
+          "pt": "dez",
+          "ar": "عشرة",
+          "image": "dix.jpg"
+        }
+      ]
+    },
+    {
+      "id": "famille",
+      "label_fr": "La famille",
+      "items": [
+        {
+          "fr": "maman",
+          "pt": "mãe",
+          "ar": "أم",
+          "image": "maman.jpg"
+        },
+        {
+          "fr": "papa",
+          "pt": "pai",
+          "ar": "أب",
+          "image": "papa.jpg"
+        },
+        {
+          "fr": "frère",
+          "pt": "irmão",
+          "ar": "أخ",
+          "image": "frere.jpg"
+        },
+        {
+          "fr": "sœur",
+          "pt": "irmã",
+          "ar": "أخت",
+          "image": "sœur.jpg"
+        },
+        {
+          "fr": "bébé",
+          "pt": "bebé",
+          "ar": "رضيع",
+          "image": "bebe.jpg"
+        },
+        {
+          "fr": "grand-mère",
+          "pt": "avó",
+          "ar": "جدة",
+          "image": "grand-mere.jpg"
+        },
+        {
+          "fr": "grand-père",
+          "pt": "avô",
+          "ar": "جد",
+          "image": "grand-pere.jpg"
+        },
+        {
+          "fr": "oncle",
+          "pt": "tio",
+          "ar": "عم",
+          "image": "oncle.jpg"
+        },
+        {
+          "fr": "tante",
+          "pt": "tia",
+          "ar": "عمة",
+          "image": "tante.jpg"
+        },
+        {
+          "fr": "cousin",
+          "pt": "primo",
+          "ar": "ابن العم",
+          "image": "cousin.jpg"
+        },
+        {
+          "fr": "la famille",
+          "pt": "família",
+          "ar": "عائلة",
+          "image": "la_famille.jpg"
+        },
+        {
+          "fr": "un ami",
+          "pt": "amigo",
+          "ar": "صديق",
+          "image": "un_ami.jpg"
+        }
+      ]
+    },
+    {
+      "id": "vetements",
+      "label_fr": "Les vêtements",
+      "items": [
+        {
+          "fr": "le pantalon",
+          "pt": "calças",
+          "ar": "سروال",
+          "image": "le_pantalon.jpg"
+        },
+        {
+          "fr": "le t-shirt",
+          "pt": "t‑shirt",
+          "ar": "تيشيرت",
+          "image": "le_t-shirt.jpg"
+        },
+        {
+          "fr": "la chemise",
+          "pt": "camisa",
+          "ar": "قميص",
+          "image": "la_chemise.jpg"
+        },
+        {
+          "fr": "la robe",
+          "pt": "vestido",
+          "ar": "فستان",
+          "image": "la_robe.jpg"
+        },
+        {
+          "fr": "la jupe",
+          "pt": "saia",
+          "ar": "تنورة",
+          "image": "la_jupe.jpg"
+        },
+        {
+          "fr": "les chaussures",
+          "pt": "sapatos",
+          "ar": "أحذية",
+          "image": "les_chaussures.jpg"
+        },
+        {
+          "fr": "les chaussettes",
+          "pt": "meias",
+          "ar": "جوارب",
+          "image": "les_chaussettes.jpg"
+        },
+        {
+          "fr": "le manteau",
+          "pt": "casaco",
+          "ar": "معطف",
+          "image": "le_manteau.jpg"
+        },
+        {
+          "fr": "le pull",
+          "pt": "camisola",
+          "ar": "كنزة",
+          "image": "le_pull.jpg"
+        },
+        {
+          "fr": "le chapeau",
+          "pt": "chapéu",
+          "ar": "قبعة",
+          "image": "le_chapeau.jpg"
+        },
+        {
+          "fr": "l'écharpe",
+          "pt": "cachecol",
+          "ar": "وشاح",
+          "image": "lecharpe.jpg"
+        },
+        {
+          "fr": "les gants",
+          "pt": "luvas",
+          "ar": "قفازات",
+          "image": "les_gants.jpg"
+        }
+      ]
+    },
+    {
+      "id": "corps",
+      "label_fr": "Le corps",
+      "items": [
+        {
+          "fr": "la tête",
+          "pt": "cabeça",
+          "ar": "رأس",
+          "image": "la_tete.jpg"
+        },
+        {
+          "fr": "les cheveux",
+          "pt": "cabelos",
+          "ar": "شعر",
+          "image": "les_cheveux.jpg"
+        },
+        {
+          "fr": "les yeux",
+          "pt": "olhos",
+          "ar": "عيون",
+          "image": "les_yeux.jpg"
+        },
+        {
+          "fr": "le nez",
+          "pt": "nariz",
+          "ar": "أنف",
+          "image": "le_nez.jpg"
+        },
+        {
+          "fr": "la bouche",
+          "pt": "boca",
+          "ar": "فم",
+          "image": "la_bouche.jpg"
+        },
+        {
+          "fr": "l'oreille",
+          "pt": "orelha",
+          "ar": "أذن",
+          "image": "loreille.jpg"
+        },
+        {
+          "fr": "la main",
+          "pt": "mão",
+          "ar": "يد",
+          "image": "la_main.jpg"
+        },
+        {
+          "fr": "le bras",
+          "pt": "braço",
+          "ar": "ذراع",
+          "image": "le_bras.jpg"
+        },
+        {
+          "fr": "la jambe",
+          "pt": "perna",
+          "ar": "ساق",
+          "image": "la_jambe.jpg"
+        },
+        {
+          "fr": "le pied",
+          "pt": "pé",
+          "ar": "قدم",
+          "image": "le_pied.jpg"
+        },
+        {
+          "fr": "le dos",
+          "pt": "costas",
+          "ar": "ظهر",
+          "image": "le_dos.jpg"
+        },
+        {
+          "fr": "le ventre",
+          "pt": "barriga",
+          "ar": "بطن",
+          "image": "le_ventre.jpg"
+        }
+      ]
+    },
+    {
+      "id": "maison",
+      "label_fr": "La maison et les pièces",
+      "items": [
+        {
+          "fr": "la maison",
+          "pt": "casa",
+          "ar": "بيت",
+          "image": "la_maison.jpg"
+        },
+        {
+          "fr": "la cuisine",
+          "pt": "cozinha",
+          "ar": "مطبخ",
+          "image": "la_cuisine.jpg"
+        },
+        {
+          "fr": "le salon",
+          "pt": "sala de estar",
+          "ar": "غرفة الجلوس",
+          "image": "le_salon.jpg"
+        },
+        {
+          "fr": "la chambre",
+          "pt": "quarto",
+          "ar": "غرفة النوم",
+          "image": "la_chambre.jpg"
+        },
+        {
+          "fr": "la salle de bain",
+          "pt": "casa de banho",
+          "ar": "حمام",
+          "image": "la_salle_de_bain.jpg"
+        },
+        {
+          "fr": "le jardin",
+          "pt": "jardim",
+          "ar": "حديقة",
+          "image": "le_jardin.jpg"
+        },
+        {
+          "fr": "la porte",
+          "pt": "porta",
+          "ar": "باب",
+          "image": "la_porte.jpg"
+        },
+        {
+          "fr": "la fenêtre",
+          "pt": "janela",
+          "ar": "نافذة",
+          "image": "la_fenetre.jpg"
+        },
+        {
+          "fr": "le lit",
+          "pt": "cama",
+          "ar": "سرير",
+          "image": "le_lit.jpg"
+        },
+        {
+          "fr": "la table",
+          "pt": "mesa",
+          "ar": "طاولة",
+          "image": "la_table.jpg"
+        },
+        {
+          "fr": "la chaise",
+          "pt": "cadeira",
+          "ar": "كرسي",
+          "image": "la_chaise.jpg"
+        },
+        {
+          "fr": "l'escalier",
+          "pt": "escada",
+          "ar": "درج",
+          "image": "lescalier.jpg"
+        }
+      ]
+    },
+    {
+      "id": "nourriture",
+      "label_fr": "La nourriture",
+      "items": [
+        {
+          "fr": "le pain",
+          "pt": "pão",
+          "ar": "خبز",
+          "image": "le_pain.jpg"
+        },
+        {
+          "fr": "l'eau",
+          "pt": "água",
+          "ar": "ماء",
+          "image": "leau.jpg"
+        },
+        {
+          "fr": "le lait",
+          "pt": "leite",
+          "ar": "حليب",
+          "image": "le_lait.jpg"
+        },
+        {
+          "fr": "la pomme",
+          "pt": "maçã",
+          "ar": "تفاح",
+          "image": "la_pomme.jpg"
+        },
+        {
+          "fr": "la banane",
+          "pt": "banana",
+          "ar": "موز",
+          "image": "la_banane.jpg"
+        },
+        {
+          "fr": "l'orange",
+          "pt": "laranja",
+          "ar": "برتقال",
+          "image": "lorange.jpg"
+        },
+        {
+          "fr": "le riz",
+          "pt": "arroz",
+          "ar": "أرز",
+          "image": "le_riz.jpg"
+        },
+        {
+          "fr": "les pâtes",
+          "pt": "massas",
+          "ar": "معكرونة",
+          "image": "les_pates.jpg"
+        },
+        {
+          "fr": "le poulet",
+          "pt": "frango",
+          "ar": "دجاج",
+          "image": "le_poulet.jpg"
+        },
+        {
+          "fr": "le poisson",
+          "pt": "peixe",
+          "ar": "سمك",
+          "image": "le_poisson.jpg"
+        },
+        {
+          "fr": "les légumes",
+          "pt": "legumes",
+          "ar": "خضار",
+          "image": "les_legumes.jpg"
+        },
+        {
+          "fr": "le fromage",
+          "pt": "queijo",
+          "ar": "جبن",
+          "image": "le_fromage.jpg"
+        }
+      ]
+    },
+    {
+      "id": "animaux",
+      "label_fr": "Les animaux",
+      "items": [
+        {
+          "fr": "le chien",
+          "pt": "cão",
+          "ar": "كلب",
+          "image": "le_chien.jpg"
+        },
+        {
+          "fr": "le chat",
+          "pt": "gato",
+          "ar": "قط",
+          "image": "le_chat.jpg"
+        },
+        {
+          "fr": "le poisson",
+          "pt": "peixe",
+          "ar": "سمكة",
+          "image": "le_poisson.jpg"
+        },
+        {
+          "fr": "l'oiseau",
+          "pt": "pássaro",
+          "ar": "طائر",
+          "image": "loiseau.jpg"
+        },
+        {
+          "fr": "la vache",
+          "pt": "vaca",
+          "ar": "بقرة",
+          "image": "la_vache.jpg"
+        },
+        {
+          "fr": "le cheval",
+          "pt": "cavalo",
+          "ar": "حصان",
+          "image": "le_cheval.jpg"
+        },
+        {
+          "fr": "le cochon",
+          "pt": "porco",
+          "ar": "خنزير",
+          "image": "le_cochon.jpg"
+        },
+        {
+          "fr": "le mouton",
+          "pt": "ovelha",
+          "ar": "خروف",
+          "image": "le_mouton.jpg"
+        },
+        {
+          "fr": "la chèvre",
+          "pt": "cabra",
+          "ar": "عنزة",
+          "image": "la_chevre.jpg"
+        },
+        {
+          "fr": "le lapin",
+          "pt": "coelho",
+          "ar": "أرنب",
+          "image": "le_lapin.jpg"
+        },
+        {
+          "fr": "le lion",
+          "pt": "leão",
+          "ar": "أسد",
+          "image": "le_lion.jpg"
+        },
+        {
+          "fr": "l'éléphant",
+          "pt": "elefante",
+          "ar": "فيل",
+          "image": "lelephant.jpg"
+        }
+      ]
+    },
+    {
+      "id": "verbes",
+      "label_fr": "Verbes du quotidien",
+      "items": [
+        {
+          "fr": "manger",
+          "pt": "comer",
+          "ar": "يأكل",
+          "image": "manger.jpg"
+        },
+        {
+          "fr": "boire",
+          "pt": "beber",
+          "ar": "يشرب",
+          "image": "boire.jpg"
+        },
+        {
+          "fr": "aller",
+          "pt": "ir",
+          "ar": "يذهب",
+          "image": "aller.jpg"
+        },
+        {
+          "fr": "venir",
+          "pt": "vir",
+          "ar": "يأتي",
+          "image": "venir.jpg"
+        },
+        {
+          "fr": "parler",
+          "pt": "falar",
+          "ar": "يتكلم",
+          "image": "parler.jpg"
+        },
+        {
+          "fr": "écouter",
+          "pt": "ouvir",
+          "ar": "يستمع",
+          "image": "ecouter.jpg"
+        },
+        {
+          "fr": "lire",
+          "pt": "ler",
+          "ar": "يقرأ",
+          "image": "lire.jpg"
+        },
+        {
+          "fr": "écrire",
+          "pt": "escrever",
+          "ar": "يكتب",
+          "image": "ecrire.jpg"
+        },
+        {
+          "fr": "jouer",
+          "pt": "brincar",
+          "ar": "يلعب",
+          "image": "jouer.jpg"
+        },
+        {
+          "fr": "dormir",
+          "pt": "dormir",
+          "ar": "ينام",
+          "image": "dormir.jpg"
+        },
+        {
+          "fr": "courir",
+          "pt": "correr",
+          "ar": "يركض",
+          "image": "courir.jpg"
+        },
+        {
+          "fr": "sauter",
+          "pt": "saltar",
+          "ar": "يقفز",
+          "image": "sauter.jpg"
+        }
+      ]
+    },
+    {
+      "id": "lieux",
+      "label_fr": "Lieux de la ville",
+      "items": [
+        {
+          "fr": "l'école",
+          "pt": "escola",
+          "ar": "مدرسة",
+          "image": "lecole.jpg"
+        },
+        {
+          "fr": "le parc",
+          "pt": "parque",
+          "ar": "حديقة",
+          "image": "le_parc.jpg"
+        },
+        {
+          "fr": "la rue",
+          "pt": "rua",
+          "ar": "شارع",
+          "image": "la_rue.jpg"
+        },
+        {
+          "fr": "la boulangerie",
+          "pt": "padaria",
+          "ar": "مخبز",
+          "image": "la_boulangerie.jpg"
+        },
+        {
+          "fr": "le magasin",
+          "pt": "loja",
+          "ar": "متجر",
+          "image": "le_magasin.jpg"
+        },
+        {
+          "fr": "la piscine",
+          "pt": "piscina",
+          "ar": "مسبح",
+          "image": "la_piscine.jpg"
+        },
+        {
+          "fr": "la poste",
+          "pt": "correios",
+          "ar": "بريد",
+          "image": "la_poste.jpg"
+        },
+        {
+          "fr": "l'hôpital",
+          "pt": "hospital",
+          "ar": "مستشفى",
+          "image": "lhopital.jpg"
+        },
+        {
+          "fr": "la gare",
+          "pt": "estação",
+          "ar": "محطة",
+          "image": "la_gare.jpg"
+        },
+        {
+          "fr": "la maison",
+          "pt": "casa",
+          "ar": "بيت",
+          "image": "la_maison.jpg"
+        },
+        {
+          "fr": "l'église",
+          "pt": "igreja",
+          "ar": "كنيسة",
+          "image": "leglise.jpg"
+        },
+        {
+          "fr": "la bibliothèque",
+          "pt": "biblioteca",
+          "ar": "مكتبة",
+          "image": "la_bibliotheque.jpg"
+        }
+      ]
+    },
+    {
+      "id": "meteo",
+      "label_fr": "La météo",
+      "items": [
+        {
+          "fr": "le soleil",
+          "pt": "sol",
+          "ar": "شمس",
+          "image": "le_soleil.jpg"
+        },
+        {
+          "fr": "la pluie",
+          "pt": "chuva",
+          "ar": "مطر",
+          "image": "la_pluie.jpg"
+        },
+        {
+          "fr": "le nuage",
+          "pt": "nuvem",
+          "ar": "سحابة",
+          "image": "le_nuage.jpg"
+        },
+        {
+          "fr": "le vent",
+          "pt": "vento",
+          "ar": "رياح",
+          "image": "le_vent.jpg"
+        },
+        {
+          "fr": "la neige",
+          "pt": "neve",
+          "ar": "ثلج",
+          "image": "la_neige.jpg"
+        },
+        {
+          "fr": "l'orage",
+          "pt": "trovoada",
+          "ar": "عاصفة رعدية",
+          "image": "lorage.jpg"
+        },
+        {
+          "fr": "il fait chaud",
+          "pt": "está calor",
+          "ar": "الطقس حار",
+          "image": "il_fait_chaud.jpg"
+        },
+        {
+          "fr": "il fait froid",
+          "pt": "está frio",
+          "ar": "الطقس بارد",
+          "image": "il_fait_froid.jpg"
+        },
+        {
+          "fr": "il fait beau",
+          "pt": "está bom tempo",
+          "ar": "الجو جميل",
+          "image": "il_fait_beau.jpg"
+        },
+        {
+          "fr": "il pleut",
+          "pt": "está a chover",
+          "ar": "إنه يمطر",
+          "image": "il_pleut.jpg"
+        },
+        {
+          "fr": "il neige",
+          "pt": "está a nevar",
+          "ar": "إنه يثلج",
+          "image": "il_neige.jpg"
+        },
+        {
+          "fr": "l'arc‑en‑ciel",
+          "pt": "arco‑íris",
+          "ar": "قوس قزح",
+          "image": "larc‑en‑ciel.jpg"
+        }
+      ]
+    },
+    {
+      "id": "transports",
+      "label_fr": "Les transports",
+      "items": [
+        {
+          "fr": "la voiture",
+          "pt": "carro",
+          "ar": "سيارة",
+          "image": "la_voiture.jpg"
+        },
+        {
+          "fr": "le bus",
+          "pt": "autocarro",
+          "ar": "حافلة",
+          "image": "le_bus.jpg"
+        },
+        {
+          "fr": "le train",
+          "pt": "comboio",
+          "ar": "قطار",
+          "image": "le_train.jpg"
+        },
+        {
+          "fr": "le métro",
+          "pt": "metro",
+          "ar": "مترو",
+          "image": "le_metro.jpg"
+        },
+        {
+          "fr": "le vélo",
+          "pt": "bicicleta",
+          "ar": "دراجة",
+          "image": "le_velo.jpg"
+        },
+        {
+          "fr": "la trottinette",
+          "pt": "trotinete",
+          "ar": "سكوتر",
+          "image": "la_trottinette.jpg"
+        },
+        {
+          "fr": "l'avion",
+          "pt": "avião",
+          "ar": "طائرة",
+          "image": "lavion.jpg"
+        },
+        {
+          "fr": "le bateau",
+          "pt": "barco",
+          "ar": "قارب",
+          "image": "le_bateau.jpg"
+        },
+        {
+          "fr": "le taxi",
+          "pt": "táxi",
+          "ar": "تاكسي",
+          "image": "le_taxi.jpg"
+        },
+        {
+          "fr": "à pied",
+          "pt": "a pé",
+          "ar": "سيرا على الأقدام",
+          "image": "a_pied.jpg"
+        },
+        {
+          "fr": "le camion",
+          "pt": "camioneta",
+          "ar": "شاحنة",
+          "image": "le_camion.jpg"
+        },
+        {
+          "fr": "le tram",
+          "pt": "elétrico",
+          "ar": "ترام",
+          "image": "le_tram.jpg"
+        }
+      ]
+    }
+  ]
+}

@@ -1,364 +1,65 @@
 <!doctype html>
 <html lang="fr">
 <head>
-<meta charset="utf-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>FLE — Vocabulaire (FR ↔ PT/AR)</title>
-<style>
-  :root{
-    --bg:#0e1320; --panel:#141b2e; --ink:#eaf0ff; --muted:#a9b5d1; --accent:#6ea8fe; --line:#243253;
-  }
-  *{box-sizing:border-box}
-  body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.5 system-ui,Segoe UI,Roboto,Arial}
-  header,footer{max-width:1100px;margin:auto;padding:16px}
-  header h1{margin:0 0 8px 0;font-size:1.4rem}
-  .app{max-width:1100px;margin:auto;padding:16px;display:grid;gap:16px}
-  .toolbar{display:grid;grid-template-columns:1fr 1fr 1fr;gap:10px}
-  .toolbar .field{display:flex;flex-direction:column;gap:6px}
-  select,input,button{
-    background:var(--panel);color:var(--ink);border:1px solid var(--line);
-    padding:10px;border-radius:10px;font:inherit
-  }
-  button{cursor:pointer}
-  .grid{
-    display:grid;gap:16px;
-    grid-template-columns: 360px 1fr;
-  }
-  @media (max-width:900px){ .grid{grid-template-columns:1fr} }
-  .card{
-    background:var(--panel);border:1px solid var(--line);border-radius:16px;padding:14px
-  }
-  .image-wrap{display:flex;align-items:center;justify-content:center;min-height:260px;background:#0b1020;border-radius:12px;border:1px dashed var(--line)}
-  .image-wrap img{max-width:100%;max-height:360px;border-radius:8px;display:block}
-  .words{display:grid;gap:8px}
-  .words .fr{font-size:1.6rem;font-weight:700}
-  .words .tr{font-size:1.2rem;color:var(--muted)}
-  .rtl{direction:rtl}
-  .list{max-height:420px;overflow:auto;display:grid;gap:6px;padding-right:4px}
-  .item{display:flex;justify-content:space-between;align-items:center;gap:10px;background:#101833;border:1px solid var(--line);border-radius:10px;padding:8px 10px}
-  .item small{color:var(--muted)}
-  .item button{padding:6px 10px}
-  .controls{display:flex;gap:8px;flex-wrap:wrap}
-  .muted{color:var(--muted)}
-  .error{color:#ff9c9c}
-</style>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Trie les problèmes : + − × :</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <header>
-    <h1>FLE — Vocabulaire (FR ↔ Portugais / Arabe)</h1>
-    <p class="muted">Charge <code>assets/data/vocabulaire_fle.json</code> (prioritaire) ou bascule sur <code>vocabulaire_fle.csv</code> si besoin.</p>
+  <header class="header">
+    <div class="title">
+      <h1>Glisse la fiche dans la bonne opération</h1>
+      <p>Tu joues avec <strong>10 fiches</strong>. À la fin : une note sur 10.</p>
+    </div>
+    <div class="hud">
+      <div class="chip"><span>Question</span><strong id="qIndex">1</strong><span>/</span><strong id="qTotal">10</strong></div>
+      <div class="chip"><span>Score</span><strong id="score">0</strong></div>
+      <button class="btn" id="restartBtn" type="button">Recommencer</button>
+    </div>
   </header>
 
-  <main class="app">
-    <section class="toolbar card">
-      <div class="field">
-        <label for="sel-theme">Thème</label>
-        <select id="sel-theme"></select>
+  <main class="main">
+    <section class="cardArea" aria-label="Fiche à trier">
+      <div class="cardFrame">
+        <img id="cardImg" class="card" alt="Fiche-problème" draggable="true" />
       </div>
-      <div class="field">
-        <label for="sel-lang">Langue maternelle (traduction)</label>
-        <select id="sel-lang">
-          <option value="pt">Portugais</option>
-          <option value="ar">Arabe</option>
-        </select>
-      </div>
-      <div class="field">
-        <label for="search">Recherche (mot FR)</label>
-        <input id="search" type="search" placeholder="Tape un mot en français…">
-      </div>
+      <div class="feedback" id="feedback" role="status" aria-live="polite"></div>
     </section>
 
-    <section class="grid">
-      <div class="card">
-        <div class="image-wrap">
-          <img id="img" alt="Illustration" onerror="this.dataset.failed='1';this.src='';this.alt='Image non trouvée';">
-        </div>
-        <div class="words" style="margin-top:12px">
-          <div class="fr" id="label-fr">—</div>
-          <div class="tr" id="label-tr">—</div>
-        </div>
-        <div class="controls" style="margin-top:12px">
-          <button id="prev">◀ Précédent</button>
-          <button id="next">Suivant ▶</button>
-          <span class="muted" id="count">0 / 0</span>
-        </div>
-        <div id="message" class="muted" style="margin-top:8px"></div>
+    <section class="bins" aria-label="Cases des opérations">
+      <div class="bin" data-op="+" tabindex="0" aria-label="Case addition">
+        <div class="binHeader">Addition</div>
+        <div class="binOp">+</div>
       </div>
-
-      <div class="card">
-        <div class="controls" style="margin-bottom:10px">
-          <button id="shuffle">🔀 Mélanger</button>
-          <button id="reset">↺ Réinitialiser</button>
-        </div>
-        <div class="list" id="list"></div>
+      <div class="bin" data-op="-" tabindex="0" aria-label="Case soustraction">
+        <div class="binHeader">Soustraction</div>
+        <div class="binOp">−</div>
       </div>
-    </section>
-
-    <section class="card">
-      <details>
-        <summary>Chemins des fichiers & images (aide)</summary>
-        <ul>
-          <li>Données : <code>assets/data/vocabulaire_fle.json</code> et/ou <code>assets/data/vocabulaire_fle.csv</code> (séparateur ;)</li>
-          <li>Images : <code>assets/images/</code>  
-              — Chargement d’abord via <code>assets/images/&lt;theme_id&gt;/&lt;image&gt;</code>, sinon <code>assets/images/&lt;image&gt;</code>.</li>
-        </ul>
-        <div class="error" id="errors"></div>
-      </details>
+      <div class="bin" data-op="x" tabindex="0" aria-label="Case multiplication">
+        <div class="binHeader">Multiplication</div>
+        <div class="binOp">×</div>
+      </div>
+      <div class="bin" data-op=":" tabindex="0" aria-label="Case division">
+        <div class="binHeader">Division</div>
+        <div class="binOp">:</div>
+      </div>
     </section>
   </main>
 
-  <footer>
-    <small class="muted">Astuce : donne aux fichiers images **exactement** le nom du champ <code>image</code> du JSON/CSV.</small>
+  <dialog id="endDialog" class="dialog">
+    <h2>Résultat</h2>
+    <p>Ta note : <strong id="finalScore">0</strong> / 10</p>
+    <p class="small" id="finalMsg"></p>
+    <div class="dialogActions">
+      <button class="btn" id="playAgainBtn" type="button">Rejouer</button>
+    </div>
+  </dialog>
+
+  <footer class="footer">
+    <p class="small">Astuce : sur tablette, tu peux aussi <strong>toucher-glisser</strong> la fiche.</p>
   </footer>
 
-<script>
-// ------------------------
-// Config chemins
-// ------------------------
-const PATH_JSON = 'assets/data/vocabulaire_fle.json';
-const PATH_CSV  = 'assets/data/vocabulaire_fle.csv';
-
-// État global
-let DATA = { languages: ['fr','pt','ar'], themes: [] };
-let currentTheme = null;
-let currentLang  = 'pt'; // 'pt' ou 'ar'
-let currentIdx   = 0;
-let filteredItems = [];
-const errorsEl = document.getElementById('errors');
-
-// Utilitaires
-const $ = sel => document.querySelector(sel);
-const $$ = sel => Array.from(document.querySelectorAll(sel));
-
-function setMessage(txt, isError=false){
-  const el = document.getElementById('message');
-  el.textContent = txt || '';
-  el.className = isError ? 'error' : 'muted';
-}
-
-function toFilename(s){
-  return (s||'').toLowerCase()
-    .normalize('NFD').replace(/[\u0300-\u036f]/g,'') // supprime accents
-    .replace(/[’'´`]/g,'')
-    .replace(/\s+/g,'_')
-    .replace(/ç/g,'c')
-    + '.jpg';
-}
-
-function parseCSV(text){
-  // CSV séparé par ; avec header: theme_id;theme_label_fr;fr;pt;ar;image
-  const lines = text.split(/\r?\n/).filter(Boolean);
-  const header = lines.shift().split(';').map(s=>s.trim());
-  const idx = Object.fromEntries(header.map((h,i)=>[h,i]));
-  const themes = new Map();
-  for (const line of lines){
-    const cols = line.split(';');
-    if (cols.length < 6) continue;
-    const theme_id = cols[idx.theme_id]?.trim();
-    const theme_label_fr = cols[idx.theme_label_fr]?.trim() || theme_id;
-    const fr = cols[idx.fr]?.trim();
-    const pt = cols[idx.pt]?.trim();
-    const ar = cols[idx.ar]?.trim();
-    const image = cols[idx.image]?.trim() || toFilename(fr);
-    if(!theme_id || !fr) continue;
-    if(!themes.has(theme_id)){
-      themes.set(theme_id, { id: theme_id, label_fr: theme_label_fr, items: [] });
-    }
-    themes.get(theme_id).items.push({ fr, pt, ar, image });
-  }
-  return { languages: ['fr','pt','ar'], themes: Array.from(themes.values()) };
-}
-
-async function loadData(){
-  // Essaie JSON puis fallback CSV
-  try{
-    const res = await fetch(PATH_JSON, {cache:'no-store'});
-    if(!res.ok) throw new Error('JSON non trouvé');
-    const data = await res.json();
-    if(!data.themes?.length) throw new Error('JSON vide');
-    DATA = data;
-    setMessage('Données chargées via JSON.');
-  }catch(e){
-    errorsEl.innerHTML += `<div>JSON : ${e.message}</div>`;
-    try{
-      const res = await fetch(PATH_CSV, {cache:'no-store'});
-      if(!res.ok) throw new Error('CSV non trouvé');
-      const csv = await res.text();
-      const data = parseCSV(csv);
-      if(!data.themes?.length) throw new Error('CSV vide');
-      DATA = data;
-      setMessage('Données chargées via CSV (fallback).');
-    }catch(e2){
-      errorsEl.innerHTML += `<div>CSV : ${e2.message}</div>`;
-      setMessage('Impossible de charger les données. Vérifie les chemins.', true);
-    }
-  }
-}
-
-function renderThemes(){
-  const sel = $('#sel-theme');
-  sel.innerHTML = '';
-  for (const t of DATA.themes){
-    const opt = document.createElement('option');
-    opt.value = t.id;
-    opt.textContent = t.label_fr || t.id;
-    sel.appendChild(opt);
-  }
-  if(DATA.themes.length){
-    currentTheme = DATA.themes[0];
-    sel.value = currentTheme.id;
-  }
-}
-
-function filterItems(){
-  const q = $('#search').value.trim().toLowerCase();
-  const base = currentTheme?.items || [];
-  filteredItems = q ? base.filter(it => it.fr.toLowerCase().includes(q)) : [...base];
-  currentIdx = 0;
-}
-
-function resolveImagePath(item){
-  // Tente: assets/images/<theme_id>/<image> puis assets/images/<image>
-  const themeId = currentTheme?.id || '';
-  return [
-    `assets/images/${themeId}/${item.image}`,
-    `assets/images/${item.image}`
-  ];
-}
-
-function applyRTLIfNeeded(lang){
-  const trEl = $('#label-tr');
-  if(lang === 'ar'){
-    trEl.classList.add('rtl');
-  }else{
-    trEl.classList.remove('rtl');
-  }
-}
-
-function renderCurrent(){
-  const countEl = $('#count');
-  const imgEl = $('#img');
-  const frEl = $('#label-fr');
-  const trEl = $('#label-tr');
-
-  countEl.textContent = `${filteredItems.length ? currentIdx+1 : 0} / ${filteredItems.length}`;
-
-  if(!filteredItems.length){
-    frEl.textContent = '—';
-    trEl.textContent = '—';
-    imgEl.removeAttribute('src');
-    return;
-  }
-
-  const item = filteredItems[currentIdx];
-  frEl.textContent = item.fr;
-  trEl.textContent = (currentLang === 'pt' ? item.pt : item.ar) || '—';
-  applyRTLIfNeeded(currentLang);
-
-  imgEl.dataset.failed = '0';
-  const paths = resolveImagePath(item);
-  // Essaye le 1er, si onError, bascule sur le 2e
-  imgEl.onerror = () => {
-    if(imgEl.dataset.failed === '1') return; // déjà échoué
-    imgEl.dataset.failed = '1';
-    imgEl.src = paths[1];
-  };
-  imgEl.src = paths[0];
-}
-
-function renderList(){
-  const list = $('#list');
-  list.innerHTML = '';
-  filteredItems.forEach((it, i) => {
-    const row = document.createElement('div');
-    row.className = 'item';
-    const left = document.createElement('div');
-    left.innerHTML = `<strong>${it.fr}</strong><br><small>${currentLang==='pt'?it.pt:it.ar || '—'}</small>`;
-    const go = document.createElement('button');
-    go.textContent = 'Voir';
-    go.addEventListener('click', () => {
-      currentIdx = i;
-      renderCurrent();
-      window.scrollTo({top:0,behavior:'smooth'});
-    });
-    row.append(left, go);
-    list.appendChild(row);
-  });
-}
-
-function shuffleArray(a){
-  for(let i=a.length-1;i>0;i--){
-    const j = Math.floor(Math.random()*(i+1));
-    [a[i],a[j]] = [a[j],a[i]];
-  }
-}
-
-function onThemeChange(){
-  const id = $('#sel-theme').value;
-  currentTheme = DATA.themes.find(t => t.id === id) || DATA.themes[0];
-  filterItems();
-  renderCurrent();
-  renderList();
-}
-
-function onLangChange(){
-  currentLang = $('#sel-lang').value;
-  applyRTLIfNeeded(currentLang);
-  renderCurrent();
-  renderList();
-}
-
-function onSearch(){
-  filterItems();
-  renderCurrent();
-  renderList();
-}
-
-function onPrev(){ if(currentIdx>0){ currentIdx--; renderCurrent(); } }
-function onNext(){ if(currentIdx<filteredItems.length-1){ currentIdx++; renderCurrent(); } }
-
-function onShuffle(){
-  shuffleArray(currentTheme.items);
-  filterItems();
-  renderCurrent();
-  renderList();
-}
-
-function onReset(){
-  $('#search').value = '';
-  filterItems();
-  renderCurrent();
-  renderList();
-}
-
-async function init(){
-  await loadData();
-  if(!DATA.themes?.length) return;
-  renderThemes();
-  filterItems();
-  renderCurrent();
-  renderList();
-
-  // Restaure préférences si besoin (optionnel)
-  try{
-    const savedLang = localStorage.getItem('fle_lang');
-    if(savedLang && ['pt','ar'].includes(savedLang)){
-      $('#sel-lang').value = savedLang;
-      onLangChange();
-    }
-  }catch{}
-
-  // Événements
-  $('#sel-theme').addEventListener('change', onThemeChange);
-  $('#sel-lang').addEventListener('change', (e)=>{ localStorage.setItem('fle_lang', e.target.value); onLangChange(); });
-  $('#search').addEventListener('input', onSearch);
-  $('#prev').addEventListener('click', onPrev);
-  $('#next').addEventListener('click', onNext);
-  $('#shuffle').addEventListener('click', onShuffle);
-  $('#reset').addEventListener('click', onReset);
-}
-
-init();
-</script>
+  <script src="app.js"></script>
 </body>
 </html>

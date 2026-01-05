@@ -7,6 +7,7 @@ let score = 0;
 let locked = false;
 
 const cardImg = document.getElementById('cardImg');
+const dropTarget = document.getElementById('dropTarget');
 const feedback = document.getElementById('feedback');
 const qIndexEl = document.getElementById('qIndex');
 const qTotalEl = document.getElementById('qTotal');
@@ -55,7 +56,6 @@ function showCard(){
   feedback.textContent = '';
   cardImg.src = current.file;
   cardImg.dataset.op = current.op;
-  cardImg.style.transform = 'translate(0px, 0px)';
 }
 
 function markAnswer(isGood, expectedOp){
@@ -91,7 +91,7 @@ function endGame(){
   endDialog.showModal();
 }
 
-function handleDrop(op){
+function answer(op){
   if(locked) return;
   locked = true;
   const expected = cardImg.dataset.op;
@@ -103,70 +103,31 @@ function handleDrop(op){
   }, 900);
 }
 
-// Desktop drag & drop
-cardImg.addEventListener('dragstart', (e) => {
-  e.dataTransfer.setData('text/plain', cardImg.dataset.op);
-  e.dataTransfer.effectAllowed = 'move';
-});
-
-document.querySelectorAll('.bin').forEach(bin => {
-  bin.addEventListener('dragover', (e) => {
-    e.preventDefault();
-    bin.classList.add('over');
+// DRAG: operation tile -> card (beaucoup plus fiable que carte -> case)
+document.querySelectorAll('.opTile').forEach(tile => {
+  tile.addEventListener('dragstart', (e) => {
+    e.dataTransfer.setData('text/plain', tile.dataset.op);
+    e.dataTransfer.effectAllowed = 'move';
   });
-  bin.addEventListener('dragleave', () => bin.classList.remove('over'));
-  bin.addEventListener('drop', (e) => {
-    e.preventDefault();
-    bin.classList.remove('over');
-    handleDrop(bin.dataset.op);
+  tile.addEventListener('click', () => {
+    answer(tile.dataset.op);
   });
 });
 
-// Touch / tablet pointer-drag
-let dragging = false;
-let startX = 0, startY = 0;
-let curX = 0, curY = 0;
-
-function setTranslate(x, y){
-  cardImg.style.transform = `translate(${x}px, ${y}px)`;
-}
-
-cardImg.addEventListener('pointerdown', (e) => {
-  dragging = true;
-  cardImg.setPointerCapture(e.pointerId);
-  startX = e.clientX;
-  startY = e.clientY;
-  curX = 0; curY = 0;
+// Drop target
+['dragenter','dragover'].forEach(ev => {
+  dropTarget.addEventListener(ev, (e) => {
+    e.preventDefault(); // indispensable pour autoriser le drop
+    dropTarget.classList.add('over');
+  });
 });
-
-cardImg.addEventListener('pointermove', (e) => {
-  if(!dragging) return;
-  curX = e.clientX - startX;
-  curY = e.clientY - startY;
-  setTranslate(curX, curY);
-
-  document.querySelectorAll('.bin').forEach(b => b.classList.remove('over'));
-  const el = document.elementFromPoint(e.clientX, e.clientY);
-  const bin = el && el.closest && el.closest('.bin');
-  if(bin) bin.classList.add('over');
+dropTarget.addEventListener('dragleave', () => dropTarget.classList.remove('over'));
+dropTarget.addEventListener('drop', (e) => {
+  e.preventDefault();
+  dropTarget.classList.remove('over');
+  const op = e.dataTransfer.getData('text/plain');
+  if(op) answer(op);
 });
-
-function endPointerDrag(e){
-  if(!dragging) return;
-  dragging = false;
-  document.querySelectorAll('.bin').forEach(b => b.classList.remove('over'));
-
-  const el = document.elementFromPoint(e.clientX, e.clientY);
-  const bin = el && el.closest && el.closest('.bin');
-  if(bin){
-    handleDrop(bin.dataset.op);
-  } else {
-    cardImg.style.transform = 'translate(0px, 0px)';
-  }
-}
-
-cardImg.addEventListener('pointerup', endPointerDrag);
-cardImg.addEventListener('pointercancel', endPointerDrag);
 
 // Buttons
 restartBtn.addEventListener('click', () => {

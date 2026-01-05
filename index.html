@@ -3,14 +3,14 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Trie les problèmes : + − × :</title>
+  <title>Choisis l’opération (+ − × :)</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
   <header class="header">
     <div class="title">
-      <h1>Glisse la fiche dans la bonne opération</h1>
-      <p>Tu joues avec <strong>10 fiches</strong>. À la fin : une note sur 10.</p>
+      <h1>Choisis la bonne opération</h1>
+      <p>Tu joues avec <strong>10 fiches</strong>. Glisse une opération sur la fiche (ou clique). À la fin : note sur 10.</p>
     </div>
     <div class="hud">
       <div class="chip"><span>Question</span><strong id="qIndex">1</strong><span>/</span><strong id="qTotal">10</strong></div>
@@ -20,29 +20,26 @@
   </header>
 
   <main class="main">
-    <section class="cardArea" aria-label="Fiche à trier">
+    <section class="cardArea" aria-label="Fiche à résoudre">
       <div class="cardFrame">
-        <img id="cardImg" class="card" alt="Fiche-problème" draggable="true" />
+        <div id="dropTarget" class="dropTarget" aria-label="Zone de dépôt">
+          <img id="cardImg" class="card" alt="Fiche-problème" />
+          <div class="hint">Dépose ici</div>
+        </div>
       </div>
       <div class="feedback" id="feedback" role="status" aria-live="polite"></div>
     </section>
 
-    <section class="bins" aria-label="Cases des opérations">
-      <div class="bin" data-op="+" tabindex="0" aria-label="Case addition">
-        <div class="binHeader">Addition</div>
-        <div class="binOp">+</div>
-      </div>
-      <div class="bin" data-op="-" tabindex="0" aria-label="Case soustraction">
-        <div class="binHeader">Soustraction</div>
-        <div class="binOp">−</div>
-      </div>
-      <div class="bin" data-op="x" tabindex="0" aria-label="Case multiplication">
-        <div class="binHeader">Multiplication</div>
-        <div class="binOp">×</div>
-      </div>
-      <div class="bin" data-op=":" tabindex="0" aria-label="Case division">
-        <div class="binHeader">Division</div>
-        <div class="binOp">:</div>
+    <section class="ops" aria-label="Choix des opérations">
+      <div class="opCard">
+        <div class="opTitle">Glisse OU clique</div>
+        <div class="opGrid">
+          <button class="opTile" draggable="true" data-op="+" aria-label="Addition">+</button>
+          <button class="opTile" draggable="true" data-op="-" aria-label="Soustraction">−</button>
+          <button class="opTile" draggable="true" data-op="x" aria-label="Multiplication">×</button>
+          <button class="opTile" draggable="true" data-op=":" aria-label="Division">:</button>
+        </div>
+        <p class="small muted">Astuce : sur tablette, le clic fonctionne toujours (plus simple que le glisser).</p>
       </div>
     </section>
   </main>
@@ -57,7 +54,7 @@
   </dialog>
 
   <footer class="footer">
-    <p class="small">Astuce : sur tablette, tu peux aussi <strong>toucher-glisser</strong> la fiche.</p>
+    <p class="small">Tu veux une version “mode prof” (choisir les fiches, niveaux, etc.) ?</p>
   </footer>
 
   <script src="app.js"></script>
